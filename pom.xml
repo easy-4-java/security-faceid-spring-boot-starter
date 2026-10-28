@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.1.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 http://maven.apache.org/xsd/maven-4.1.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.1.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,7 +56,7 @@
         <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <maven.version>3.6.3</maven.version>
+        <maven.version>4.0.0-rc-5</maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- Third-Party Dependencies -->
@@ -138,11 +138,6 @@
         </dependency>
 
         <!-- For Lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>compile</scope>
-        </dependency>
 
         <!-- For Servlet Api -->
         <dependency>
@@ -152,19 +147,8 @@
         </dependency>
 
         <!-- For Slf4j -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
 
         <!-- For Slf4j Simple -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.version}</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- For Spring Boot -->
         <dependency>
@@ -205,10 +189,7 @@
         </dependency>
 
         <!-- Source: https://github.com/easy-4-java/security-biz-spring-boot-starter — easy4j security-biz-spring-boot-starter -->
-        <dependency>
-            <groupId>io.github.easy4j</groupId>
-            <artifactId>security-biz-spring-boot-starter</artifactId>
-        </dependency>
+
     </dependencies>
 
     <!-- 制品发布仓库配置（distributionManagement） -->
