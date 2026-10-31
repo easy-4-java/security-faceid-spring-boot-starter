@@ -419,7 +419,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
         <maven-nexus-staging-plugin.version>1.6.8</maven-nexus-staging-plugin.version>
-        <spring-security-biz.version>1.0.9-SNAPSHOT</spring-security-biz.version>
+        <spring-security-biz.version>1.0.9.RELEASE</spring-security-biz.version>
         <spring-boot-starter-arcface.version>1.0.0-SNAPSHOT</spring-boot-starter-arcface.version>
         <spring-boot-starter-baiduapi.version>1.0.0-SNAPSHOT</spring-boot-starter-baiduapi.version>
         <spring-boot-starter-opencv.version>1.0.0-SNAPSHOT</spring-boot-starter-opencv.version>
@@ -430,7 +430,7 @@
         <dependencies>
             <!-- https://github.com/hiwepy/security-biz-spring-boot-starter -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>security-biz-spring-boot-starter</artifactId>
                 <version>${spring-security-biz.version}</version>
             </dependency>
@@ -528,7 +528,7 @@
      
         <!-- https://github.com/hiwepy/security-biz-spring-boot-starter -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>security-biz-spring-boot-starter</artifactId>
         </dependency>
         
