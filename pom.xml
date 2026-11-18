@@ -65,6 +65,9 @@
         <spring-boot-starter-baiduapi.version>4.1.x.20260630-SNAPSHOT</spring-boot-starter-baiduapi.version>
         <spring-boot-starter-opencv.version>4.1.x.20260630-SNAPSHOT</spring-boot-starter-opencv.version>
         <spring-security-biz.version>4.1.x.20260630-SNAPSHOT</spring-security-biz.version>
+        <spring-security-faceid.version>3.0.x.20260630-SNAPSHOT</spring-security-faceid.version>
+        <spring-security-extension.version>3.0.x.20260630-SNAPSHOT</spring-security-extension.version>
+        <spring-extension.version>3.0.x.20260630-SNAPSHOT</spring-extension.version>
         <!-- Maven Plugin Dependencies -->
         <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
         <maven-central-publishing-plugin.version>0.11.0</maven-central-publishing-plugin.version>
@@ -194,6 +197,21 @@
             <groupId>io.github.easy4j</groupId>
             <artifactId>security-biz-spring-boot-starter</artifactId>
             <version>${spring-security-biz.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.easy4j</groupId>
+            <artifactId>spring-security-faceid</artifactId>
+            <version>${spring-security-faceid.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.easy4j</groupId>
+            <artifactId>spring-security-extension</artifactId>
+            <version>${spring-security-extension.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.easy4j</groupId>
+            <artifactId>spring-extension</artifactId>
+            <version>${spring-extension.version}</version>
         </dependency>
 
     </dependencies>
